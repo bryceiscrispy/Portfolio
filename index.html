@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/stylesheet.css" />
+    <body style="background-color: rgba(216, 255, 242, 0.678)"></body>
+
+    <title>Bryson Cox - Portfolio</title>
+  </head>
+
+  <body>
+    <nav>
+      <h1>Bryson Cox</h1>
+      <ul class="navigation">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <button class="burger-menu" id="burger-menu">
+        <ion-icon class="bars" name="menu-outline"></ion-icon>
+      </button>
+    </nav>
+
+    <section class="hero" id="about">
+      <img
+        src="assets\images\331137955_3444915529162501_5842553376243091765_n.jpg"
+        alt="Bryson-Cox"
+        loading="lazy"
+        class="hero-img"
+      />
+      <div class="bio animate__animated animate__shakeX">
+        <h2 class="bio-title">About Me</h2>
+        <p class="bio-text">
+          My name is Bryson! I am a current student at the UT Austin Coding
+          BootCamp and Previously have traveled the US with my band on tour!
+          Coming from the touring life style and stepping into the coding
+          experience has been quite interesting and slightly challenging to
+          adjust to but I am making it work!
+        </p>
+      </div>
+    </section>
+
+    <section class="more-about">
+      <h2>More About Me</h2>
+      <p>
+        Before the touring I was a student in a different bootcamp where I took
+        and passed my CompTia Sec+ and Network+ Certification Tests, and I have
+        some Intermediate IT experience! I also study the Russian language in my
+        free time aside from working on code and writing songs! Надеюсь, ты
+        сможешь это понять!!
+      </p>
+      <p>
+        I also got my self a puppy last year, his name is Harvey! He is a big
+        chocolate lab who isnt the sharpest tool in the shed but is a very sweet
+        boy!
+      </p>
+    </section>
+
+    <section class="skills" id="skills">
+      <h2 class="skill-header">My Core Skills</h2>
+
+      <div class="skills-wrapper">
+        <div class="first-set animate__animated animate__pulse">
+          <img
+            src="assets\images\sec+ logo.png"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets\images\net+ logo.png"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets\images\guitarpng.parspng.com-6.png"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section class="projects" id="projects">
+      <h2 class="projects-title">Recent Projects "Coming Soon!"</h2>
+      <div class="projects-container">
+        <div class="project-container project-card"></div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <h2>How to reach me!</h2>
+      <div class="contact-form-container">
+        <div class="contact-form">
+          <form action="https://formspree.io/f/xyylngw" method="POST">
+            <div class="form-control">
+              <label for="name">Name</label>
+              <input
+                type="text"
+                id="name"
+                name="sender-name"
+                placeholder="Enter Your Name"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="sender-email"
+                placeholder="Enter Your Email"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                cols="60"
+                rows="10"
+                placeholder="Enter Your Message"
+                name="message"
+                class="input-field"
+                required
+              ></textarea>
+            </div>
+            <input
+              type="submit"
+              value="Submit"
+              id="submit-btn"
+              class="submit-btn"
+            />
+          </form>
+        </div>
+      </div>
+    </section>
+    <script></script>
+  </body>
+</html>
